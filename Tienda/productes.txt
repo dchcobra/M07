@@ -1,0 +1,3 @@
+Manzana;Rojas;2€
+Pera;Madura;1€
+Coco;Natural;3€
