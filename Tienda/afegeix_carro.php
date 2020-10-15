@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php 
-        echo $_POST['producto'];
+        session_start();
+        $_SESSION["compra"][$_POST["producto"]] = $_POST["cantidad"];
+        print_r($_SESSION["compra"]);
     ?>
 </body>
 </html>
